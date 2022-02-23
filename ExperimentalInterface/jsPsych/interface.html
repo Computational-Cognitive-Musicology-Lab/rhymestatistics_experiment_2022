@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modal Chord Progressions Emotion Experiment</title>
+    <script src="jsPsych/jspsych.js"></script>
+    <script src="jsPsych/plugins/jspsych-audio-sliders-response.js"></script>
+    <script src="jsPsych/plugins/jspsych-survey-likert.js"></script>
+    <script src="jsPsych/plugins/jspsych-survey-multi-choice.js"></script>
+    <script src="jsPsych/plugins/jspsych-survey-html-form.js"></script>
+    <script src="jsPsych/plugins/jspsych-html-button-response.js"></script>
+    <link href="jsPsych/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+  </head>
+  <body> </body>
+  <script>
+
+    var consent = {
+      type: "html-button-response",
+      stimulus:  "<p><img src='gatechlogo.png' height='60' /> <img src='LabLogo_BlackandWhite.png' height='60' /></p>" +
+                 "<p>That you for your interest in our research study." +
+                " Your participation is extremely valuable to us and we thank you for participating!" +
+                " Your participation will help us better understand how different chord progressions express emotions in music.</p>"+
+                " <p>The study should take approximately 30&#8211;40 minutes to complete. " +
+                "Your participation in this study is always voluntary and you may discontinue your participation at any time.</p>" +
+                "<p> <b>Risks</b>: This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as 'Minimal risk research (Ethics ID #H19240).' The risks of participating in this study are no greater than any casual music listening, or other other normal daily activities.</p> <p><b>Confidentiality</b>: Your responses to the study questions will be entirely anonymous and confidential and all study data will be kept confidential to the extent required by law. No personal data will be gathered from you, and your identity will never be associated with your data, published, or disclosed in any way.</p> <p>To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records.</p> <p><b>Compensation</b>: You will not benefit of be compensated for participating in this study.</p> <p><b>Contacts and Questions</b>: For questions, concerns, or complaints about the study, you may contact the Principal Investigator, Dr. Nathaniel Condit-Schltz at: natcs[at]gatech.edu or by telephone 404-904-1112. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404) 894-6942.</p> <hr /> <p><strong>By clicking below and completing the study you are agreeing to participate.</strong> You do <em>not</em> waive any of your legal rights by agreeing to participate.</p>",
+      choices: ["I agree. Begin the study."]
+ 
+    };
+
+    var demographics = {
+      type: "survey-html-form",
+      preamble: "Before we begin, please tell us a little about yourself:",
+      html: '<p><b>Age</b>: <input type="number" min="18" max="120" id="part_age" name="part_age"/></p>' +
+            '<p><b>Gender</b>: <input type="test"/></p>'
+ 
+    };
+    var musicianship = {
+      type: "survey-multi-choice",
+      preamble: "Next, tell us about your musical experience:",
+      questions: [{prompt: "I have engaged in regular, daily practice of a musical instrument (including voice) for _ years.",
+                   options: ["0", "1", "2", "3", "4-5", "6-9", "10 or more"], 
+                   horizontal: true,
+                   name: "PracticeYears"},
+                  {prompt: "At the peak of my interest, I practiced _ hours per day.",
+                   options: ["0", "0.5", "1", "1.5", "2", "3-4", "5 or more"], 
+                   horizontal: true,
+                   name: "PracticeHours"},
+                  {prompt: "I usually attend _ live music events as an audience member per year",
+                   options: ["0", "1", "2", "3", "4-6", "7-10", "11 or more"], 
+                   horizontal: true,
+                   name: "LiveAttendance"},
+                  {prompt: "I have had formal training in music theory for _ years",
+                   options: ["0", "0.5", "1", "2", "3", "4-6", "7 or more"], 
+                   horizontal: true,
+                   name: "MusicTheory"}
+                 ],
+ 
+    };
+
+    var instructions = {
+       type: "html-button-response",
+      stimulus: "<p>In this experiment you will listen to 49 chord progressions. Each chord progression will start with a single chord that introduces the 'key' of the piece. Next a chord progression will start to play and will loop until you submit your answer(s).</p> <p>Your task, is to judge the emotion, or emotions, expressed by the chord progression. There are nine sliders, each associated with a certain emotions:</p> <ul> <li><em>Wonder</em> (happy, filled with wonder, moved)</li> <li><em>Transcendence</em> (inspired, thrills)</li> <li><em>Tenderness</em> (sensual, affectionate, tender)</li> <li><em>Nostalgia</em> (sentimental, dreamy, melancholic)</li> <li><em>Peacefulness</em> (calm, relaxed, serene, soothed)</li> <li><em>Power</em> (energetic, triumphant, heroic)</li> <li><em>Joyful Activation</em> (stimulated, joyful, animated, feel like dancing, bouncy)</li> <li><em>Tension</em> (agitated, nervous, tense)</li> <li><em>Sadness</em> (sorrowful, sad, tearful)</li> </ul> <p>For each chord progression, move the slider away from zero to indicate how strongly you think it <em>expresses</em> that emotion. You may not actually <em>feel</em> that emotion&#8212;your goal is just to recognize what emotion the music is expressing. You should judge each chord progression separately from the last&#8212;try to forget the previous music you already heard.</p> <p>Once you’ve made your emotion ratings, click the 'submit' button to move on. After you click “submit,” there will be a three second pause, then the next progression will start.</p>",
+      choices: ["I'm ready to start."]
+    };
+
+
+    var mainblock = {
+      type: "audio-sliders-response",
+      labels1: ["Not Expressed", "<b>Wonder</b>", "Strongly Expressed"],
+      labels2: ["Not Expressed", "<b>Transcendence</b>", "Strongly Expressed"],
+      labels3: ["Not Expressed", "<b>Tenderness</b>", "Strongly Expressed"],
+      labels4: ["Not Expressed", "<b>Nostalgia</b>", "Strongly Expressed"],
+      labels5: ["Not Expressed", "<b>Peacefulness</b>", "Strongly Expressed"],
+      labels6: ["Not Expressed", "<b>Power</b>", "Strongly Expressed"],
+      labels7: ["Not Expressed", "<b>Joyful Activation</b>", "Strongly Expressed"],
+      labels8: ["Not Expressed", "<b>Tension</b>", "Strongly Expressed"],
+      labels9: ["Not Expressed", "<b>Sadness</b>", "Strongly Expressed"],
+      button_label: "Submit",
+      slider_start: 0,
+      slider_width: 800,
+      prompt: "Indicate the emotions being expressed. ",
+      stimulus: "GirlLoop.mp3"
+    };
+
+
+    
+
+    /* start the experiment */
+    jsPsych.init({
+      timeline: [consent, demographics, musicianship, instructions, mainblock]
+    });
+  </script>
+</html>

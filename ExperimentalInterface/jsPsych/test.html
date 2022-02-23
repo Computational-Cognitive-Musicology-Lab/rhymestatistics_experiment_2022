@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My experiment</title>
+        <script src="jsPsych/jspsych.js"></script>
+        <script src="jsPsych/plugins/jspsych-html-button-response.js"></script>
+        <script src="jsPsych/plugins/jspsych-audio-slider-response.js"></script>
+        <script src="jsPsych/plugins/jspsych-audiovolume-slider-response.js"></script>
+        <script src="jsPsych/plugins/jspsych-audio2volume-slider-response.js"></script>
+        <link href="jsPsych/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body></body>
+    <script>
+    var trial1 = {
+        type: 'html-button-response',
+        choices:["Continue"],
+        stimulus: '<p>This is a test.</p>'
+    }
+
+    var trial2 = {
+        type: 'audiovolume-slider-response',
+        stimulus: 'GirlLoop.wav',
+        labels: ["Low Quality", "High Quality"],
+        require_movement: true,
+        prompt: '<div><p>Set the volume to a comfortable, normal level.</p><p>Rate the quality of the audio/sound mix.</p></div>'
+    }
+    var trial3 = {
+        type: 'audio2volume-slider-response',
+        stimulus1: 'GirlLoop.wav',
+        stimulus2: 'GirlLoop.wav',
+        labels: ["Low Quality", "High Quality"],
+        require_movement: true,
+        prompt: '<div><p>Set the volume of the <emph>second half</emph> to match the volume of the first half.</p><p>Rate the quality of the audio/sound mix.</p></div>'
+    }
+
+    jsPsych.init({
+        timeline: [trial1, trial2, trial3],
+		  on_finish: function() {
+    			jsPsych.data.displayData();
+  		  }
+    })
+
+    </script>
+</html>
