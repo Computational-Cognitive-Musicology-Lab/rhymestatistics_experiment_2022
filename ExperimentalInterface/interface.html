@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,6 +6,8 @@
     <script src="jsPsych/jspsych.js"></script>
     <script src="jsPsych/plugins/jspsych-audio-button-response.js"></script>
     <script src="jsPsych/plugins/jspsych-survey-likert.js"></script>
+    <script src="jsPsych/plugins/jspsych-survey-text.js"></script>
+    <script src="jsPsych/plugins/jspsych-html-button-response.js"></script>
     <script src="jsPsych/plugins/jspsych-survey-multi-choice.js"></script>
     <script src="jsPsych/plugins/jspsych-survey-html-form.js"></script>
     <link href="jsPsych/css/jspsych.css" rel="stylesheet" type="text/css"></link>
@@ -25,9 +28,7 @@
 
     var consent = {
       type: "html-button-response",
-      stimulus:  ' <p><img src="gatechlogo.png" height="60" /> <img src="LabLogo_BlackandWhite.png" height="60" /></p> <p>Thank you for your interest in our research study. This study is intended for native speakers of English of <em>any</em> dialect—we’re afraid we can’t accept participation from anyone else. For native English speakers, your participation will help us better understand the use of language as an art form. Your participation is extremely valuable to us and we thank you for helping out!</p> <p>The study should take approximately 20–30 minutes to complete. Your participation in this study is always voluntary and you may discontinue your participation at any time.</p> <h4 id="ethics">Ethics:</h4> <p>This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as “Minimal risk research” (Ethics ID # XXXX). The risks of participating in this study are no greater than any casual poetry listening or other other normal daily activities.</p> <h4 id="confidentiality">Confidentiality:</h4> <p>We will comply with any applicable laws and regulations regarding confidentiality. Your responses to the study questions will be entirely anonymous and confidential. No personal data will be gathered from you, and your identity will never be associated with your data, published, or disclosed in any way.</p> <p>To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records. Your anonymous responses may also be shared with other scientists for use in other research.</p> <h4 id="compensation-rights">Compensation &amp; Rights:</h4> <p>You will not benefit of be compensated for participating in this study.</p> <h4 id="contacts-and-questions">Contacts and Questions:</h4> <p>For questions, concerns, or complaints about the study, you may contact the Principal Investigator, Dr. Nathaniel Condit-Schultz at: natcs[at]gatech.edu or by telephone (404)-904-1112. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404)-894-6942.</p> <hr /> <p>Only adults (18 years or older) who speak English as a native language are eligible to participate in this study. <strong>By clicking below and completing the study you are agreeing to participate.</strong> You do <em>not</em> waive any of your legal rights by agreeing to participate.</p>'
-           onclick="consentAndContinue()"></p>
-'
+      stimulus:  ' <p><img src="gatechlogo.png" height="60" /> <img src="LabLogo_BlackandWhite.png" height="60" /></p> <p>Thank you for your interest in our research study. This research will help us better understand how artists use the sounds of human language to create art, especially in poetry and song lyrics. This study is intended for native speakers of English of <em>any</em> dialect#—8212we’re afraid we can’t accept participation from anyone else. If you are a native English speaker, your participation is extremely valuable to us and we thank you for helping out!</p> <p>The study should take approximately 20%&amp;821130 minutes to complete. Your participation in this study is always voluntary and you may discontinue your participation at any time.</p> <h4 id="ethics">Ethics:</h4> <p>This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as “Minimal risk research” (Ethics ID #H22081). The risks of participating in this study are no greater than any casual poetry listening or other normal daily activities.</p> <h4 id="confidentiality">Confidentiality:</h4> <p>We will comply with any applicable laws and regulations regarding confidentiality. Your responses to the study questions will be entirely anonymous and confidential. No personal data will be gathered from you, and your identity will never be associated with your data, published, or disclosed in any way.</p> <p>To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records. Your anonymous responses may also be shared with other scientists for use in other research.</p> <h4 id="compensation">Compensation:</h4> <p>You will not directly benefit from or be compensated for participating in this study.</p> <h4 id="contacts-and-questions">Contacts and Questions:</h4> <p>For questions, concerns, or complaints about the study, you may contact the Principal Investigator, Dr. Nathaniel Condit-Schultz at: natcs[at]gatech.edu or by telephone (404)-904-1112. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404)-894-6942.</p> <hr /> <p>Only adults (18 years or older) who speak English as a native language and who are <em>not</em> located in the EU are eligible to participate in this study. <strong>By clicking below and completing the study you are agreeing to participate.</strong> You do <em>not</em> waive any of your legal rights by agreeing to participate.</p>',
       choices: ["I agree. Begin the study."],
 
     };
@@ -38,7 +39,25 @@
       type: "survey-html-form",
       preamble: "Before we begin, please tell us a little about yourself:",
       html: '<p><b>Age</b>: <input type="number" min="18" max="120" id="part_age" name="part_age"/></p>' +
-            '<p><b>Gender</b>: <input type="test" id="part_age" name="part_age"/></p>'
+            '<p><b>Gender</b>: <input type="text" id="part_age" name="part_age"/></p>'
+    };
+    var dialect = {
+      type: "survey-html-form",
+      preamble: "Tell us a little about your native English.",
+      html: "<p>Which of these categories best describes your native dialect of English:" + 
+              "<select name='part_dialect' id='part_dialect' style='width:400px; height ='200px' required>" +
+                 "<option value='African American English'>African American English</option>" + 
+                 "<option value='American English'>American English</option>" + 
+                 "<option value='Australian English'>Australian English</option>" + 
+                 "<option value='Canadian English'>Canadian English</option>" + 
+                 "<option value='UK English'>UK English</option>" + 
+                 "<option value='New Zealand English'>New Zealand English</option>" + 
+                 "<option value='Jamaican English'>Jamaican English</option>" + 
+                 "<option value='Irish English'>Irish English</option>" + 
+                 "<option value='Other English'>Other English</option>" + 
+              "</select></p>" +
+         "<p>Describe more specifically the regional or cultural dialect which you think best describes our native English: for example 'southern US,' 'Edinburgh (Scotland),' or 'South Bronx (New York City).'" + 
+              "<input type='text' id='part_dialect2' name='part_dialect2' style='width:500px; height=2em'>"
     };
     var experience = {
       type: "survey-multi-choice",
@@ -55,17 +74,13 @@
                    horizontal: true, required:true,
                    name: "Poetry W"},
                   {prompt: "When you listen to music, do you pay attention to the lyrics?",
-                   options: ["Not at all", "Sometimes", "Usually", "Always"],
+                   options: ["Never", "Sometimes", "Usually", "Always"],
                    horizontal: true, required:true,
                    name: "Music L"},
                   {prompt: "In the music you enjoy, do you think the lyrics are essential to the artistry?",
                    options: ["Not at all", "Sometimes/maybe", "Definitely"],
                    horizontal: true, required:true,
                    name: "Music Lyrics Value"},
-                  {prompt: "Do you enjoy listening to rap music?",
-                   options: ["Not at all", "Occassionally", "Yes", "It is my favorite music."],
-                   horizontal: true, required:true,
-                   name: "Rap"},
                    {prompt: "How often do you write songs with lyrics?",
                    options: ["Never", "Occassionally", "Regularly", "Frequently"],
                    horizontal: true, required:true,
@@ -74,65 +89,72 @@
                    options: ["Never", "Occassionally", "Regularly", "Frequently"],
                    horizontal: true, required:true,
                    name: "Singing"},
+                  {prompt: "How often do you listen to rap music??",
+                   options: ["Never", "Occassionally", "Regularly", "Frequently"],
+                   horizontal: true, required:true,
+                   name: "Rap L"},
+                  {prompt: "How often do you write or freestyle rap?",
+                   options: ["Never", "Occassionally", "Regularly", "Frequently"],
+                   horizontal: true, required:true,
+                   name: "Rap W"},
                  ],
 
     };
 
     var instructions = {
        type: "html-button-response",
-      stimulus: "<p></p>",
+      stimulus: "<p>In this experiment you will hear 120 'fake English' utterances, composed of English-like nonsense words. These utterances were all originally either real English poetry (artistic English) or real English prose (“normal” English). The original English has been carefully garbled so that the original meaning is gone, but aspects of the language’s <em>sound</em> remain.</p> <p>Your job is to use your intuition as an English speaker to guess which pseudo utterances were originally poetry, and which were prose. You will hear each utterance once then respond by clicking either the 'Prose' or 'Poetry' button; after you click, you’ll hear the next utterance.</p> <p>Feel free to take breaks every 10&#8211;20 utterances, if you need to. When you are ready to begin, click the button below!</p>",
       choices: ["I'm ready to start the experiment."]
     };
 
-var audiofiles = [];
+var audio_files = [{file:"sample1_control.wav"}];
 
 
 
     var maintrial = {
-      type: "audiovolume-button-response",
-      labels: ["Poetry", "Prose"],
+      type: "audio-button-response",
+      choices: ["Poetry", "Prose"],
       button_label: "Continue",
-      prompt: "<p>Do you think this utterenace was originally poetry or prose?</p>",
+      prompt: "<p>Do you think this utterance was originally poetry or prose?</p>",
       stimulus: jsPsych.timelineVariable("file"),
       post_trial_gap: 2000,
     };
 
     var mainblock = {
       timeline: [maintrial],
-      timeline_variables: audio_sample_block1,
+      timeline_variables: audio_files,
       randomize_order: false,
       }
     
 
 
 
+
     var thanks = {
+      type: "survey-text",
+      questions:  [{rows:10, columns:40, prompt:"<p>Thanks for all your hard work! You are done!</p> <p>If you have <em>any</em> comments about the experiment, please write them in below. We'd be particularly interested in hearing what strategies you used to do this task and what you noticed was different between the prose and the poetry examples.</p>"}],
+		preamble: "Thank you!",
+      button_label: ["Continue."],
+      on_start: function() {saveData("Rhyme", jsPsych.data.get().json()); console.log("Finished");},
+    };
+
+    var debrief = {
       type: "html-button-response",
-      stimulus:  "<p><img src='gatechlogo.png' height='120' /> <img src='LabLogo_BlackandWhite.png' height='200' /></p>" +
-                  "DEBREIF HERE" + 
-                  "<p>Contact Nat Condit-Schultz at natcs[at]gatech.edu if you have any questions.</p>",
+      stimulus:  "<p><img src='gatechlogo.png' height='120' /> <img src='LabLogo_BlackandWhite.png' height='200' /></p> <p>Thanks again!</p> <p>By participating in this research, you’ll be helping us understand how and why humans perceive <em>rhymes</em>&#8212;in particular, a form of rhyme known as <strong>assonance</strong>. Assonant rhymes occur when poets reuse certain vowels. The main difference between the poetry and prose you just heard was how vowels were being reused. In the poetry examples, the poets often use the same sequences of vowels in certain places in the poetic lines.</p> <p>If you have any additional questions or concerns, contact Nat Condit-Schultz at natcs[at]gatech.edu.</p>",
       choices: ["I'm done."],
-      on_start: function() {saveData("Compression_", jsPsych.data.get().json()); console.log("Finished");},
+      on_start: function() {saveData("Rhyme", jsPsych.data.get().json()); console.log("Finished");},
     };
 
 
-var all_audiofiles = audio_sample_block1.map((item) => {return item.file});
 
-all_audiofiles = all_audiofiles.concat(audiofiles2.map((item) => {return item.first}));
-all_audiofiles = all_audiofiles.concat(audiofiles2.map((item) => {return item.second}));
 
-all_audiofiles = _.uniq(all_audiofiles);
-console.log(audio_sample_block1);
-console.log(audiofiles2);
-
-console.log(all_audiofiles);
 
 
     /* start the experiment */
     jsPsych.init({
       show_progress_bar: true,
-      timeline: [consent, demographics, experience, instructions, mainblock, thanks],
-      preload_audio: all_audiofiles,
+      timeline: [consent, instructions, mainblock, thanks, debrief],
+      //preload_audio: audio_files,
     });
   </script>
 </html>

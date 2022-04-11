@@ -9,18 +9,18 @@ geometry: margin=1in
 
 
 Thank you for your interest in our research study.
+This research will help us better understand how artists use the sounds of human language to create art, especially in poetry and song lyrics.
 This study is intended for native speakers of English of *any* dialect---we're afraid we can't accept participation from anyone else.
-For native English speakers, your participation will help us better understand the use of language as an art form.
-Your participation is extremely valuable to us and we thank you for helping out!
+If you are a native English speaker, your participation is extremely valuable to us and we thank you for helping out!
 
 
-The study should take approximately 20--30 minutes to complete.
+The study should take approximately 20%&821130 minutes to complete.
 Your participation in this study is always voluntary and you may discontinue your participation at any time.
 
 #### Ethics:
 
-This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as "Minimal risk research" (Ethics ID # XXXX).
-The risks of participating in this study are no greater than any casual poetry listening or other other normal daily activities.
+This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as "Minimal risk research" (Ethics ID #H22081).
+The risks of participating in this study are no greater than any casual poetry listening or other normal daily activities.
 
 
 #### Confidentiality:
@@ -33,9 +33,9 @@ To make sure that this research is being carried out in the proper way, the Geor
 The Office of Human Research Protections may also look at study records.
 Your anonymous responses may also be shared with other scientists for use in other research.
 
-#### Compensation & Rights:
+#### Compensation:
 
-You will not benefit of be compensated for participating in this study.
+You will not directly benefit from or be compensated for participating in this study.
 
 #### Contacts and Questions:
 
@@ -44,7 +44,7 @@ If you have any questions about your rights as a research subject, you may conta
 
 ----
 
-Only adults (18 years or older) who speak English as a native language are eligible to participate in this study.
+Only adults (18 years or older) who speak English as a native language and who are *not* located in the EU are eligible to participate in this study.
 **By clicking below and completing the study you are agreeing to participate.**
 You do *not* waive any of your legal rights by agreeing to participate. 
 
