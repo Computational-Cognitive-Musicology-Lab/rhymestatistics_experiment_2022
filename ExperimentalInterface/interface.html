@@ -23,8 +23,15 @@
       var xhr = new XMLHttpRequest();
       xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path
       xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify({filename: name + timestamp, filedata: data}));
-    };
+      xhr.send(JSON.stringify({filename: "../Data/" + name + timestamp, filedata: data}));
+     };
+
+	const fs = require('fs');
+	const dir = '../Data';
+
+	fs.readdir(dir, (err, files) => {
+ 	 console.log(files.length);
+	});
 
     var consent = {
       type: "html-button-response",
@@ -154,7 +161,7 @@ var audio_files = [{file:"sample1_control.wav"}];
     jsPsych.init({
       show_progress_bar: true,
       timeline: [consent, instructions, mainblock, thanks, debrief],
-      //preload_audio: audio_files,
+      preload_audio: audio_files,
     });
   </script>
 </html>
