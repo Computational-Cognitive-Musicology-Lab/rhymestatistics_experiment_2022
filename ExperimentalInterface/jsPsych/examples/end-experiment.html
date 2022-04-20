@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <script src="../dist/jspsych.js"></script>
+    <script src="../dist/plugin-image-keyboard-response.js"></script>
+    <script src="../dist/plugin-preload.js"></script>
+    <link rel="stylesheet" href="../dist/jspsych.css">
+  </head>
+  <body></body>
+  <script>
 
-<head>
-  <script src="../jspsych.js"></script>
-  <script src="../plugins/jspsych-image-keyboard-response.js"></script>
-  <link rel="stylesheet" href="../css/jspsych.css"></link>
-  <style>
-    img {
-      width: 300px;
+    var jsPsych = initJsPsych();
+
+    var images = ["img/1.gif", "img/2.gif", "img/3.gif", "img/4.gif", "img/5.gif", "img/6.gif", "img/7.gif", "img/8.gif", "img/9.gif", "img/10.gif"];
+
+    var trials = [];
+    for (var i = 0; i < images.length; i++) {
+      trials.push({
+        stimulus: images[i]
+      });
     }
-  </style>
-</head>
-<body></body>
-<script>
-  var images = ["img/1.gif", "img/2.gif", "img/3.gif", "img/4.gif", "img/5.gif", "img/6.gif", "img/7.gif", "img/8.gif", "img/9.gif", "img/10.gif"];
 
-  var trials = [];
-  for (var i = 0; i < images.length; i++) {
-    trials.push({
-      stimulus: images[i]
-    });
-  }
+    var preload = {
+      type: jsPsychPreload,
+      auto_preload: true
+    };
 
-  var block = {
-    type: 'image-keyboard-response',
-    choices: [89, 78], // Y or N
-    prompt: '<p>Press Y to Continue. Press N to end the experiment</p>',
-    on_finish: function(data) {
-      if (data.key_press == 78) {
-        jsPsych.endExperiment('The experiment was ended. This is the end message.');
-      }
-    },
-    timeline: trials
-  }
+    var block = {
+      type: jsPsychImageKeyboardResponse,
+      choices: ['y','n'], 
+      prompt: '<p>Press "y" to continue. Press "n" to end the experiment.</p>',
+      stimulus_width: 300,
+      on_finish: function(data) {
+        if (jsPsych.pluginAPI.compareKeys(data.response, 'n')) {
+          jsPsych.endExperiment('The experiment was ended. This is the end message.');
+        }
+      },
+      timeline: trials
+    };
 
-
-  jsPsych.init({
-    timeline: [block]
-  });
-</script>
-
+    jsPsych.run([preload, block]);
+    
+  </script>
 </html>

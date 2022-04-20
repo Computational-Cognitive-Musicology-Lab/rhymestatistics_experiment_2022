@@ -3,14 +3,14 @@
 <html>
   <head>
     <title>English Artistry Experiment</title>
-    <script src="jsPsych/jspsych.js"></script>
-    <script src="jsPsych/plugins/jspsych-audio-button-response.js"></script>
-    <script src="jsPsych/plugins/jspsych-survey-likert.js"></script>
-    <script src="jsPsych/plugins/jspsych-survey-text.js"></script>
-    <script src="jsPsych/plugins/jspsych-html-button-response.js"></script>
-    <script src="jsPsych/plugins/jspsych-survey-multi-choice.js"></script>
-    <script src="jsPsych/plugins/jspsych-survey-html-form.js"></script>
-    <link href="jsPsych/css/jspsych.css" rel="stylesheet" type="text/css"></link>
+    <script src="jsPsych/dist/jspsych.js"></script>
+    <script src="jsPsych/dist/plugin-audio-button-response.js"></script>
+    <script src="jsPsych/dist/plugin-survey-likert.js"></script>
+    <script src="jsPsych/dist/plugin-survey-text.js"></script>
+    <script src="jsPsych/dist/plugin-html-button-response.js"></script>
+    <script src="jsPsych/dist/plugin-survey-multi-choice.js"></script>
+    <script src="jsPsych/dist/plugin-survey-html-form.js"></script>
+    <link href="jsPsych/dist/jspsych.css" rel="stylesheet" type="text/css"></link>
   </head>
   <body> </body>
   <script>
@@ -23,19 +23,17 @@
       var xhr = new XMLHttpRequest();
       xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path
       xhr.setRequestHeader('Content-Type', 'application/json');
-      xhr.send(JSON.stringify({filename: "../Data/" + name + timestamp, filedata: data}));
+      xhr.send(JSON.stringify({filename: name + timestamp, filedata: data}));
      };
 
-	const fs = require('fs');
-	const dir = '../Data';
-
-	fs.readdir(dir, (err, files) => {
- 	 console.log(files.length);
-	});
+    var jsPsych = initJsPsych({
+      show_progress_bar: true,
+      preload_audio: audio_filenames,
+    });
 
     var consent = {
-      type: "html-button-response",
-      stimulus:  ' <p><img src="gatechlogo.png" height="60" /> <img src="LabLogo_BlackandWhite.png" height="60" /></p> <p>Thank you for your interest in our research study. This research will help us better understand how artists use the sounds of human language to create art, especially in poetry and song lyrics. This study is intended for native speakers of English of <em>any</em> dialect#—8212we’re afraid we can’t accept participation from anyone else. If you are a native English speaker, your participation is extremely valuable to us and we thank you for helping out!</p> <p>The study should take approximately 20%&amp;821130 minutes to complete. Your participation in this study is always voluntary and you may discontinue your participation at any time.</p> <h4 id="ethics">Ethics:</h4> <p>This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as “Minimal risk research” (Ethics ID #H22081). The risks of participating in this study are no greater than any casual poetry listening or other normal daily activities.</p> <h4 id="confidentiality">Confidentiality:</h4> <p>We will comply with any applicable laws and regulations regarding confidentiality. Your responses to the study questions will be entirely anonymous and confidential. No personal data will be gathered from you, and your identity will never be associated with your data, published, or disclosed in any way.</p> <p>To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records. Your anonymous responses may also be shared with other scientists for use in other research.</p> <h4 id="compensation">Compensation:</h4> <p>You will not directly benefit from or be compensated for participating in this study.</p> <h4 id="contacts-and-questions">Contacts and Questions:</h4> <p>For questions, concerns, or complaints about the study, you may contact the Principal Investigator, Dr. Nathaniel Condit-Schultz at: natcs[at]gatech.edu or by telephone (404)-904-1112. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404)-894-6942.</p> <hr /> <p>Only adults (18 years or older) who speak English as a native language and who are <em>not</em> located in the EU are eligible to participate in this study. <strong>By clicking below and completing the study you are agreeing to participate.</strong> You do <em>not</em> waive any of your legal rights by agreeing to participate.</p>',
+      type: jsPsychHtmlButtonResponse,
+      stimulus:  ' <p><img src="gatechlogo.png" height="60" /> <img src="LabLogo_BlackandWhite.png" height="60" /></p> <p>Thank you for your interest in our research study. This research will help us better understand how artists use the sounds of human language to create art, especially in poetry and song lyrics. This study is intended for native speakers of English of <em>any</em> dialect&#8212;we&#39;re afraid we can&#39;t accept participation from anyone else. If you are a native English speaker, your participation is extremely valuable to us and we thank you for helping out!</p> <p>The study should take approximately 20&#8211;30 minutes to complete. Your participation in this study is always voluntary and you may discontinue your participation at any time.</p> <h4 id="ethics">Ethics:</h4> <p>This study has been reviewed by the Georgia Tech Institutional Review Board, and has been identified as &#8220;Minimal risk research&#8221; (Ethics ID #H22081). The risks of participating in this study are no greater than any casual poetry listening or other normal daily activities.</p> <h4 id="confidentiality">Confidentiality:</h4> <p>We will comply with any applicable laws and regulations regarding confidentiality. Your responses to the study questions will be entirely anonymous and confidential. No personal data will be gathered from you, and your identity will never be associated with your data, published, or disclosed in any way.</p> <p>To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records. Your anonymous responses may also be shared with other scientists for use in other research.</p> <h4 id="compensation">Compensation:</h4> <p>You will not directly benefit from or be compensated for participating in this study.</p> <h4 id="contacts-and-questions">Contacts and Questions:</h4> <p>For questions, concerns, or complaints about the study, you may contact the Principal Investigator, Dr. Nathaniel Condit-Schultz at: natcs[at]gatech.edu or by telephone (404)-904-1112. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404)-894-6942.</p> <hr /> <p>Only adults (18 years or older) who speak English as a native language and who are <em>not</em> located in the EU are eligible to participate in this study. <strong>By clicking below and completing the study you are agreeing to participate.</strong> You do <em>not</em> waive any of your legal rights by agreeing to participate.</p>',
       choices: ["I agree. Begin the study."],
 
     };
@@ -43,17 +41,17 @@
 
 
     var demographics = {
-      type: "survey-html-form",
+      type: jsPsychSurveyHtmlForm,
       preamble: "Before we begin, please tell us a little about yourself:",
       html: '<p><b>Age</b>: <input type="number" min="18" max="120" id="part_age" name="part_age"/></p>' +
             '<p><b>Gender</b>: <input type="text" id="part_age" name="part_age"/></p>'
     };
     var dialect = {
-      type: "survey-html-form",
+      type: jsPsychSurveyHtmlForm,
       preamble: "Tell us a little about your native English.",
-      html: "<p>Which of these categories best describes your native dialect of English:" + 
+      html: "<p>Which of these categories comes closest to describing your native dialect of English?" + 
               "<select name='part_dialect' id='part_dialect' style='width:400px; height ='200px' required>" +
-                 "<option value='African American English'>African American English</option>" + 
+                 "<option value='African-American English'>African American English</option>" + 
                  "<option value='American English'>American English</option>" + 
                  "<option value='Australian English'>Australian English</option>" + 
                  "<option value='Canadian English'>Canadian English</option>" + 
@@ -67,7 +65,7 @@
               "<input type='text' id='part_dialect2' name='part_dialect2' style='width:500px; height=2em'>"
     };
     var experience = {
-      type: "survey-multi-choice",
+      type: jsPsychSurveyMultiChoice, 
       preamble: "<b>Next, tell us a little bit about your experiences. Complete the following statements:</b>",
       questions: [
                    //{prompt: "I consider myself a poet.", options: ["True", "False"], name: "Poet", horizontal:true, required:true},
@@ -109,22 +107,280 @@
     };
 
     var instructions = {
-       type: "html-button-response",
-      stimulus: "<p>In this experiment you will hear 120 'fake English' utterances, composed of English-like nonsense words. These utterances were all originally either real English poetry (artistic English) or real English prose (“normal” English). The original English has been carefully garbled so that the original meaning is gone, but aspects of the language’s <em>sound</em> remain.</p> <p>Your job is to use your intuition as an English speaker to guess which pseudo utterances were originally poetry, and which were prose. You will hear each utterance once then respond by clicking either the 'Prose' or 'Poetry' button; after you click, you’ll hear the next utterance.</p> <p>Feel free to take breaks every 10&#8211;20 utterances, if you need to. When you are ready to begin, click the button below!</p>",
+       type: jsPsychHtmlButtonResponse, 
+      stimulus: "<p>In this experiment you will hear 100 'fake English' utterances, composed of English-like nonsense words. These utterances were all originally either real English poetry (artistic English) or real English prose (&#8220;normal&#8221; English). The original English has been carefully garbled so that the original meaning is gone, but aspects of the language&#39;s <em>sound</em> remain.</p><p>Some of the utterances you'll hear are short, while others are longer with a short pause in the middle.</p><p> <b>Short example:</b> <audio controls><source src='Stimuli/nonrhyme_24_oneline.mp3' type='audio/mp3'></source></audio></p><p> <b>Long example:</b><audio controls><source src='Stimuli/nonrhyme_2_twolines.mp3' type='audio/mp3'></source></audio></p><p>Your job is to use your intuition as an English speaker to guess which pseudo utterances were originally poetry, and which were prose. You will hear each utterance once then respond by clicking either the 'Prose' or 'Poetry' button; after you click, you'll hear the next utterance. Note that the length of the utterance (short of long) is <em>not</em> related to the prose/poetry question!</p> <p>Feel free to take breaks every 10&#8211;20 utterances, if you need to.</p><p>When you are ready to begin, click the button below!</p>",
       choices: ["I'm ready to start the experiment."]
     };
 
-var audio_files = [{file:"sample1_control.wav"}];
 
 
+var non_rhyme = [
+{file: "Stimuli/nonrhyme_10_twolines.mp3"},
+{file: "Stimuli/nonrhyme_11_oneline.mp3"},
+{file: "Stimuli/nonrhyme_12_oneline.mp3"},
+{file: "Stimuli/nonrhyme_13_oneline.mp3"},
+{file: "Stimuli/nonrhyme_14_oneline.mp3"},
+{file: "Stimuli/nonrhyme_15_oneline.mp3"},
+{file: "Stimuli/nonrhyme_16_oneline.mp3"},
+{file: "Stimuli/nonrhyme_17_oneline.mp3"},
+{file: "Stimuli/nonrhyme_18_oneline.mp3"},
+{file: "Stimuli/nonrhyme_19_oneline.mp3"},
+{file: "Stimuli/nonrhyme_1_twolines.mp3"},
+{file: "Stimuli/nonrhyme_20_oneline.mp3"},
+{file: "Stimuli/nonrhyme_21_oneline.mp3"},
+{file: "Stimuli/nonrhyme_22_oneline.mp3"},
+{file: "Stimuli/nonrhyme_23_oneline.mp3"},
+{file: "Stimuli/nonrhyme_24_oneline.mp3"},
+{file: "Stimuli/nonrhyme_25_oneline.mp3"},
+{file: "Stimuli/nonrhyme_26_oneline.mp3"},
+{file: "Stimuli/nonrhyme_27_oneline.mp3"},
+{file: "Stimuli/nonrhyme_28_oneline.mp3"},
+{file: "Stimuli/nonrhyme_29_oneline.mp3"},
+{file: "Stimuli/nonrhyme_2_twolines.mp3"},
+{file: "Stimuli/nonrhyme_30_oneline.mp3"},
+{file: "Stimuli/nonrhyme_31_oneline.mp3"},
+{file: "Stimuli/nonrhyme_32_oneline.mp3"},
+{file: "Stimuli/nonrhyme_33_oneline.mp3"},
+{file: "Stimuli/nonrhyme_34_oneline.mp3"},
+{file: "Stimuli/nonrhyme_35_oneline.mp3"},
+{file: "Stimuli/nonrhyme_36_oneline.mp3"},
+{file: "Stimuli/nonrhyme_37_oneline.mp3"},
+{file: "Stimuli/nonrhyme_38_oneline.mp3"},
+{file: "Stimuli/nonrhyme_39_oneline.mp3"},
+{file: "Stimuli/nonrhyme_3_twolines.mp3"},
+{file: "Stimuli/nonrhyme_40_oneline.mp3"},
+{file: "Stimuli/nonrhyme_4_twolines.mp3"},
+{file: "Stimuli/nonrhyme_5_twolines.mp3"},
+{file: "Stimuli/nonrhyme_6_twolines.mp3"},
+{file: "Stimuli/nonrhyme_7_twolines.mp3"},
+{file: "Stimuli/nonrhyme_8_twolines.mp3"},
+{file: "Stimuli/nonrhyme_9_twolines.mp3"}
+];
+
+var EndThree = [
+{file: "Stimuli/endthreevowel_rhyme10.mp3"},
+{file: "Stimuli/endthreevowel_rhyme11.mp3"},
+{file: "Stimuli/endthreevowel_rhyme12.mp3"},
+{file: "Stimuli/endthreevowel_rhyme13.mp3"},
+{file: "Stimuli/endthreevowel_rhyme14.mp3"},
+{file: "Stimuli/endthreevowel_rhyme15.mp3"},
+{file: "Stimuli/endthreevowel_rhyme16.mp3"},
+{file: "Stimuli/endthreevowel_rhyme17.mp3"},
+{file: "Stimuli/endthreevowel_rhyme18.mp3"},
+{file: "Stimuli/endthreevowel_rhyme19.mp3"},
+{file: "Stimuli/endthreevowel_rhyme1.mp3"},
+{file: "Stimuli/endthreevowel_rhyme20.mp3"},
+{file: "Stimuli/endthreevowel_rhyme21.mp3"},
+{file: "Stimuli/endthreevowel_rhyme22.mp3"},
+{file: "Stimuli/endthreevowel_rhyme23.mp3"},
+{file: "Stimuli/endthreevowel_rhyme24.mp3"},
+{file: "Stimuli/endthreevowel_rhyme25.mp3"},
+{file: "Stimuli/endthreevowel_rhyme26.mp3"},
+{file: "Stimuli/endthreevowel_rhyme27.mp3"},
+{file: "Stimuli/endthreevowel_rhyme28.mp3"},
+{file: "Stimuli/endthreevowel_rhyme29.mp3"},
+{file: "Stimuli/endthreevowel_rhyme2.mp3"},
+{file: "Stimuli/endthreevowel_rhyme30.mp3"},
+{file: "Stimuli/endthreevowel_rhyme31.mp3"},
+{file: "Stimuli/endthreevowel_rhyme32.mp3"},
+{file: "Stimuli/endthreevowel_rhyme33.mp3"},
+{file: "Stimuli/endthreevowel_rhyme34.mp3"},
+{file: "Stimuli/endthreevowel_rhyme35.mp3"},
+{file: "Stimuli/endthreevowel_rhyme36.mp3"},
+{file: "Stimuli/endthreevowel_rhyme37.mp3"},
+{file: "Stimuli/endthreevowel_rhyme38.mp3"},
+{file: "Stimuli/endthreevowel_rhyme39.mp3"},
+{file: "Stimuli/endthreevowel_rhyme3.mp3"},
+{file: "Stimuli/endthreevowel_rhyme40.mp3"},
+{file: "Stimuli/endthreevowel_rhyme41.mp3"},
+{file: "Stimuli/endthreevowel_rhyme42.mp3"},
+{file: "Stimuli/endthreevowel_rhyme43.mp3"},
+{file: "Stimuli/endthreevowel_rhyme44.mp3"},
+{file: "Stimuli/endthreevowel_rhyme45.mp3"},
+{file: "Stimuli/endthreevowel_rhyme46.mp3"},
+{file: "Stimuli/endthreevowel_rhyme47.mp3"},
+{file: "Stimuli/endthreevowel_rhyme48.mp3"},
+{file: "Stimuli/endthreevowel_rhyme49.mp3"},
+{file: "Stimuli/endthreevowel_rhyme4.mp3"},
+{file: "Stimuli/endthreevowel_rhyme50.mp3"},
+{file: "Stimuli/endthreevowel_rhyme5.mp3"},
+{file: "Stimuli/endthreevowel_rhyme6.mp3"},
+{file: "Stimuli/endthreevowel_rhyme7.mp3"},
+{file: "Stimuli/endthreevowel_rhyme8.mp3"},
+{file: "Stimuli/endthreevowel_rhyme9.mp3"},
+]
+
+var EndTwo = [
+{file: "Stimuli/EndTwoVowel_rhyme10.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme11.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme12.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme13.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme14.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme1.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme2.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme3.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme4.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme5.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme6.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme7.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme8.mp3"},
+{file: "Stimuli/EndTwoVowel_rhyme9.mp3"},
+];
+
+var InternalThree = [
+{file: "Stimuli/InternalThreeVowel_line10.mp3"},
+{file: "Stimuli/InternalThreeVowel_line11.mp3"},
+{file: "Stimuli/InternalThreeVowel_line12.mp3"},
+{file: "Stimuli/InternalThreeVowel_line13.mp3"},
+{file: "Stimuli/InternalThreeVowel_line14.mp3"},
+{file: "Stimuli/InternalThreeVowel_line15.mp3"},
+{file: "Stimuli/InternalThreeVowel_line16.mp3"},
+{file: "Stimuli/InternalThreeVowel_line17.mp3"},
+{file: "Stimuli/InternalThreeVowel_line18.mp3"},
+{file: "Stimuli/InternalThreeVowel_line19.mp3"},
+{file: "Stimuli/InternalThreeVowel_line1.mp3"},
+{file: "Stimuli/InternalThreeVowel_line20.mp3"},
+{file: "Stimuli/InternalThreeVowel_line21.mp3"},
+{file: "Stimuli/InternalThreeVowel_line22.mp3"},
+{file: "Stimuli/InternalThreeVowel_line23.mp3"},
+{file: "Stimuli/InternalThreeVowel_line24.mp3"},
+{file: "Stimuli/InternalThreeVowel_line25.mp3"},
+{file: "Stimuli/InternalThreeVowel_line26.mp3"},
+{file: "Stimuli/InternalThreeVowel_line27.mp3"},
+{file: "Stimuli/InternalThreeVowel_line28.mp3"},
+{file: "Stimuli/InternalThreeVowel_line29.mp3"},
+{file: "Stimuli/InternalThreeVowel_line2.mp3"},
+{file: "Stimuli/InternalThreeVowel_line30.mp3"},
+{file: "Stimuli/InternalThreeVowel_line31.mp3"},
+{file: "Stimuli/InternalThreeVowel_line32.mp3"},
+{file: "Stimuli/InternalThreeVowel_line33.mp3"},
+{file: "Stimuli/InternalThreeVowel_line34.mp3"},
+{file: "Stimuli/InternalThreeVowel_line35.mp3"},
+{file: "Stimuli/InternalThreeVowel_line36.mp3"},
+{file: "Stimuli/InternalThreeVowel_line3.mp3"},
+{file: "Stimuli/InternalThreeVowel_line4.mp3"},
+{file: "Stimuli/InternalThreeVowel_line5.mp3"},
+{file: "Stimuli/InternalThreeVowel_line6.mp3"},
+{file: "Stimuli/InternalThreeVowel_line7.mp3"},
+{file: "Stimuli/InternalThreeVowel_line8.mp3"},
+{file: "Stimuli/InternalThreeVowel_line9.mp3"},
+];
+
+var EndOne = [
+{file: "Stimuli/onevowelend_rhyme1.mp3"},
+{file: "Stimuli/onevowelend_rhyme2.mp3"},
+{file: "Stimuli/onevowelend_rhyme3.mp3"},
+{file: "Stimuli/onevowelend_rhyme4.mp3"},
+{file: "Stimuli/onevowelend_rhyme5.mp3"},
+{file: "Stimuli/onevowelend_rhyme6.mp3"},
+{file: "Stimuli/onevowelend_rhyme7.mp3"},
+{file: "Stimuli/onevowelend_rhyme8.mp3"},
+];
+
+var InternalOne = [
+{file: "Stimuli/onevowelinternalrhyme1.mp3"},
+{file: "Stimuli/onevowelinternalrhyme2.mp3"},
+{file: "Stimuli/onevowelinternalrhyme3.mp3"},
+{file: "Stimuli/onevowelinternalrhyme4.mp3"},
+{file: "Stimuli/onevowelinternalrhyme5.mp3"},
+{file: "Stimuli/onevowelinternalrhyme6.mp3"},
+{file: "Stimuli/onevowelinternalrhyme7.mp3"},
+{file: "Stimuli/onevowelinternalrhyme8.mp3"},
+];
+
+var SlantOne = [
+{file: "Stimuli/onevowelslant_rhyme1.mp3"},
+{file: "Stimuli/onevowelslant_rhyme2.mp3"},
+{file: "Stimuli/onevowelslant_rhyme3.mp3"},
+{file: "Stimuli/onevowelslant_rhyme4.mp3"},
+{file: "Stimuli/onevowelslant_rhyme5.mp3"},
+{file: "Stimuli/onevowelslant_rhyme6.mp3"},
+{file: "Stimuli/onevowelslant_rhyme7.mp3"},
+{file: "Stimuli/onevowelslant_rhyme8.mp3"},
+];
+
+
+var control = [{file: "Stimuli/sample1_control.mp3"}];
+
+var SlantThree = [
+{file: "Stimuli/threeVowelSlantRhyme_10.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_11.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_12.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_13.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_14.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_15.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_16.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_17.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_18.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_19.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_1.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_20.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_21.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_22.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_23.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_24.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_25.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_26.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_27.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_28.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_29.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_2.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_30.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_31.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_32.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_33.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_34.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_35.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_36.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_37.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_38.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_39.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_3.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_40.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_41.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_42.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_43.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_44.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_45.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_46.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_47.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_48.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_49.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_4.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_50.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_5.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_6.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_7.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_8.mp3"},
+{file: "Stimuli/threeVowelSlantRhyme_9.mp3"}
+];
+
+var block1 = jsPsych.randomization.shuffle(jsPsych.randomization.sampleWithoutReplacement(non_rhyme, 10));
+var sets = [EndOne, EndTwo, EndThree, InternalOne, SlantOne, SlantThree, non_rhyme];
+
+var block2 = [];
+
+for (let i = 0; i < sets.length; i++) {
+     block2 = block2.concat(jsPsych.randomization.sampleWithoutReplacement(sets[i], sets[i].length / 2));
+}
+
+block2 = jsPsych.randomization.shuffle(block2);
+
+
+
+var audio_files = block1.concat(block2);
+var audio_filenames = audio_files.map(function(x) {x.file});
+
+console.log(audio_files);
 
     var maintrial = {
-      type: "audio-button-response",
+      type: jsPsychAudioButtonResponse,
       choices: ["Poetry", "Prose"],
       button_label: "Continue",
       prompt: "<p>Do you think this utterance was originally poetry or prose?</p>",
       stimulus: jsPsych.timelineVariable("file"),
-      post_trial_gap: 2000,
+		response_allowed_while_playing: false,
+      post_trial_gap: 500,
     };
 
     var mainblock = {
@@ -138,19 +394,20 @@ var audio_files = [{file:"sample1_control.wav"}];
 
 
     var thanks = {
-      type: "survey-text",
+      type: jsPsychSurveyText,
       questions:  [{rows:10, columns:40, prompt:"<p>Thanks for all your hard work! You are done!</p> <p>If you have <em>any</em> comments about the experiment, please write them in below. We'd be particularly interested in hearing what strategies you used to do this task and what you noticed was different between the prose and the poetry examples.</p>"}],
 		preamble: "Thank you!",
       button_label: ["Continue."],
-      on_start: function() {saveData("Rhyme", jsPsych.data.get().json()); console.log("Finished");},
+      on_start: function() {saveData("Rhyme", jsPsych.data.get().csv()); console.log("Finished");},
     };
 
     var debrief = {
-      type: "html-button-response",
-      stimulus:  "<p><img src='gatechlogo.png' height='120' /> <img src='LabLogo_BlackandWhite.png' height='200' /></p> <p>Thanks again!</p> <p>By participating in this research, you’ll be helping us understand how and why humans perceive <em>rhymes</em>&#8212;in particular, a form of rhyme known as <strong>assonance</strong>. Assonant rhymes occur when poets reuse certain vowels. The main difference between the poetry and prose you just heard was how vowels were being reused. In the poetry examples, the poets often use the same sequences of vowels in certain places in the poetic lines.</p> <p>If you have any additional questions or concerns, contact Nat Condit-Schultz at natcs[at]gatech.edu.</p>",
+      type: jsPsychHtmlButtonResponse,
+      stimulus:  "<p><img src='gatechlogo.png' height='120' /> <img src='LabLogo_BlackandWhite.png' height='200' /></p> <p>Thanks again!</p> <p>By participating in this research, you'll be helping us understand how and why humans perceive <em>rhymes</em>&#8212;in particular, a form of rhyme known as <strong>assonance</strong>. Assonant rhymes occur when poets reuse certain vowels. The main difference between the poetry and prose you just heard was how vowels were being reused. In the poetry examples, the poets often use the same sequences of vowels in certain places in the poetic lines.</p> <p>If you have any additional questions or concerns, contact Nat Condit-Schultz at natcs[at]gatech.edu.</p>",
       choices: ["I'm done."],
-      on_start: function() {saveData("Rhyme", jsPsych.data.get().json()); console.log("Finished");},
+      on_start: function() {saveData("Rhyme", jsPsych.data.get().csv()); console.log("Finished");},
     };
+
 
 
 
@@ -158,10 +415,6 @@ var audio_files = [{file:"sample1_control.wav"}];
 
 
     /* start the experiment */
-    jsPsych.init({
-      show_progress_bar: true,
-      timeline: [consent, instructions, mainblock, thanks, debrief],
-      preload_audio: audio_files,
-    });
+	 jsPsych.run([consent, demographics, dialect, experience, instructions, mainblock, thanks, debrief]);
   </script>
 </html>
