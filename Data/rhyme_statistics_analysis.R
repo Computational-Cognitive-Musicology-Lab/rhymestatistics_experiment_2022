@@ -9316,3 +9316,37 @@ responses <- c(participant1$response, participant2$response, participant3$respon
                participant16$response, participant17$response, participant18$response,
                participant19$response, participant20$response, participant21$response,
                participant22$response, participant23$response, participant24$response)
+
+indices <- which(responses < 0)
+responses2 <- responses[-indices]
+probabilities <- probabilities[-indices]
+
+indices2 <- which(is.na(probabilities))
+responses2 <- responses2[-indices2]
+probabilities2 <- probabilities[-indices2]
+
+
+responses2 <- as.numeric(responses2)
+probabilities2 <- as.numeric(probabilities2)
+model <- glm(responses2~probabilities2, binomial)
+
+sequence <- seq(min(probabilities2), max(probabilities2), 0.01)
+
+predicted_values <- predict(model, list(probabilities2=sequence), type = "response")
+plot(probabilities2, responses2)
+lines(sequence, predicted_values, col = "red")
+
+# indices <- which(probabilities < 0.03)
+# probabilities3 <- probabilities2[which(probabilities2 < 0.03)]
+# responses3 <- responses2[indices]
+# 
+# model <- glm(responses3~probabilities3, binomial)
+# 
+# sequence <- seq(min(probabilities3), max(probabilities3), 0.01)
+# 
+# predicted_values <- predict(model, list(probabilities3=sequence), type = "response")
+# plot(probabilities3, responses3)
+# lines(sequence, predicted_values, col = "red")
+
+
+ 
