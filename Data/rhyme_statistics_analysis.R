@@ -1340,7 +1340,7 @@ for(i in 6:104){
   }
 }
 
-participant2$probability <- 0
+participant4$probability <- 0
 for(i in 6:104){
   if(participant4$correct_answers[i] == 0){
     if(grepl("endthreevowel_rhyme1", participant4$stimulus[i])){
@@ -3993,3 +3993,5326 @@ for(i in 6:104){
     }
   }
 }
+participant11$probability <- 0
+for(i in 6:104){
+  if(participant11$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant11$stimulus[i])){
+      participant11$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant11$stimulus[i])){
+      participant11$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant11$stimulus[i])){
+      participant11$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant11$stimulus[i])){
+      if(grepl("1", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant11$stimulus[i])){
+        participant11$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant12$probability <- 0
+for(i in 6:104){
+  if(participant12$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant12$stimulus[i])){
+      participant12$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant12$stimulus[i])){
+      participant12$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant12$stimulus[i])){
+      participant12$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant12$stimulus[i])){
+      if(grepl("1", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant12$stimulus[i])){
+        participant12$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant13$probability <- 0
+for(i in 6:104){
+  if(participant13$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant13$stimulus[i])){
+      participant13$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant13$stimulus[i])){
+      participant13$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant13$stimulus[i])){
+      participant13$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant13$stimulus[i])){
+      if(grepl("1", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant13$stimulus[i])){
+        participant13$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant14$probability <- 0
+for(i in 6:104){
+  if(participant14$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant14$stimulus[i])){
+      participant14$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant14$stimulus[i])){
+      participant14$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant14$stimulus[i])){
+      participant14$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant14$stimulus[i])){
+      if(grepl("1", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant14$stimulus[i])){
+        participant14$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant15$probability <- 0
+for(i in 6:104){
+  if(participant15$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant15$stimulus[i])){
+      participant15$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant15$stimulus[i])){
+      participant15$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant15$stimulus[i])){
+      participant15$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant15$stimulus[i])){
+      if(grepl("1", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant15$stimulus[i])){
+        participant15$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant16$probability <- 0
+for(i in 6:104){
+  if(participant16$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant16$stimulus[i])){
+      participant16$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant16$stimulus[i])){
+      participant16$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant16$stimulus[i])){
+      participant16$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant16$stimulus[i])){
+      if(grepl("1", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant16$stimulus[i])){
+        participant16$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant17$probability <- 0
+for(i in 6:104){
+  if(participant17$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant17$stimulus[i])){
+      participant17$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant17$stimulus[i])){
+      participant17$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant17$stimulus[i])){
+      participant17$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant17$stimulus[i])){
+      if(grepl("1", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant17$stimulus[i])){
+        participant17$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant18$probability <- 0
+for(i in 6:104){
+  if(participant18$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant18$stimulus[i])){
+      participant18$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant18$stimulus[i])){
+      participant18$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant18$stimulus[i])){
+      participant18$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant18$stimulus[i])){
+      if(grepl("1", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant18$stimulus[i])){
+        participant18$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant19$probability <- 0
+for(i in 6:104){
+  if(participant19$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant19$stimulus[i])){
+      participant19$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant19$stimulus[i])){
+      participant19$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant19$stimulus[i])){
+      participant19$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant19$stimulus[i])){
+      if(grepl("1", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant19$stimulus[i])){
+        participant19$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant20$probability <- 0
+for(i in 6:104){
+  if(participant20$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant20$stimulus[i])){
+      participant20$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant20$stimulus[i])){
+      participant20$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant20$stimulus[i])){
+      participant20$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant20$stimulus[i])){
+      if(grepl("1", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant20$stimulus[i])){
+        participant20$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant21$probability <- 0
+for(i in 6:104){
+  if(participant21$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant21$stimulus[i])){
+      participant21$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant21$stimulus[i])){
+      participant21$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant21$stimulus[i])){
+      participant21$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant21$stimulus[i])){
+      if(grepl("1", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant21$stimulus[i])){
+        participant21$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant22$probability <- 0
+for(i in 6:104){
+  if(participant22$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant22$stimulus[i])){
+      participant22$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant22$stimulus[i])){
+      participant22$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant22$stimulus[i])){
+      participant22$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant22$stimulus[i])){
+      if(grepl("1", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant22$stimulus[i])){
+        participant22$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant23$probability <- 0
+for(i in 6:104){
+  if(participant23$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant23$stimulus[i])){
+      participant23$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant23$stimulus[i])){
+      participant23$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant23$stimulus[i])){
+      participant23$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant23$stimulus[i])){
+      if(grepl("1", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant23$stimulus[i])){
+        participant23$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+participant24$probability <- 0
+for(i in 6:104){
+  if(participant24$correct_answers[i] == 0){
+    if(grepl("endthreevowel_rhyme1", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[1]
+    }
+    if(grepl("endthreevowel_rhyme2", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[2]
+    }
+    if(grepl("endthreevowel_rhyme3", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[3]
+    }
+    if(grepl("endthreevowel_rhyme4", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("endthreevowel_rhyme5", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[5]
+    }
+    if(grepl("endthreevowel_rhyme6", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[6]
+    }
+    if(grepl("endthreevowel_rhyme7", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[7]
+    }
+    if(grepl("endthreevowel_rhyme8", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[8]
+    }
+    if(grepl("endthreevowel_rhyme9", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[9]
+    }
+    if(grepl("endthreevowel_rhyme10", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[10]
+    }
+    if(grepl("endthreevowel_rhyme11", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[11]
+    }
+    if(grepl("endthreevowel_rhyme12", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[12]
+    }
+    if(grepl("endthreevowel_rhyme13", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[13]
+    }
+    if(grepl("endthreevowel_rhyme14", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[14]
+    }
+    if(grepl("endthreevowel_rhyme15", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[15]
+    }
+    if(grepl("endthreevowel_rhyme16", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[16]
+    }
+    if(grepl("endthreevowel_rhyme17", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[17]
+    }
+    if(grepl("endthreevowel_rhyme18", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[18]
+    }
+    if(grepl("endthreevowel_rhyme19", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[19]
+    }
+    if(grepl("endthreevowel_rhyme20", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[20]
+    }
+    if(grepl("endthreevowel_rhyme21", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[21]
+    }
+    if(grepl("endthreevowel_rhyme22", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[22]
+    }
+    if(grepl("endthreevowel_rhyme23", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[23]
+    }
+    if(grepl("endthreevowel_rhyme24", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[24]
+    }
+    if(grepl("endthreevowel_rhyme25", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[25]
+    }
+    if(grepl("endthreevowel_rhyme26", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[26]
+    }
+    if(grepl("endthreevowel_rhyme27", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[27]
+    }
+    if(grepl("endthreevowel_rhyme28", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[28]
+    }
+    if(grepl("endthreevowel_rhyme29", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[29]
+    }
+    if(grepl("endthreevowel_rhyme30", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[30]
+    }
+    if(grepl("endthreevowel_rhyme31", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[31]
+    }
+    if(grepl("endthreevowel_rhyme32", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[32]
+    }
+    if(grepl("endthreevowel_rhyme33", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[33]
+    }
+    if(grepl("endthreevowel_rhyme34", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[34]
+    }
+    if(grepl("endthreevowel_rhyme35", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[35]
+    }
+    if(grepl("endthreevowel_rhyme36", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[36]
+    }
+    if(grepl("endthreevowel_rhyme37", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[37]
+    }
+    if(grepl("endthreevowel_rhyme38", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[38]
+    }
+    if(grepl("endthreevowel_rhyme39", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[39]
+    }
+    if(grepl("endthreevowel_rhyme40", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[40]
+    }
+    if(grepl("endthreevowel_rhyme41", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[41]
+    }
+    if(grepl("endthreevowel_rhyme42", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme42", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[42]
+    }
+    if(grepl("endthreevowel_rhyme43", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[43]
+    }
+    if(grepl("endthreevowel_rhyme44", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[44]
+    }
+    if(grepl("endthreevowel_rhyme45", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[45]
+    }
+    if(grepl("endthreevowel_rhyme46", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[46]
+    }
+    if(grepl("endthreevowel_rhyme47", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[47]
+    }
+    if(grepl("endthreevowel_rhyme48", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[48]
+    }
+    if(grepl("endthreevowel_rhyme49", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[49]
+    }
+    if(grepl("endthreevowel_rhyme50", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[50]
+    }
+    if(grepl("EndTwoVowel_rhyme1", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[1]
+    }
+    if(grepl("EndTwoVowel_rhyme2", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[2]
+    }
+    if(grepl("EndTwoVowel_rhyme3", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[3]
+    }
+    if(grepl("EndTwoVowel_rhyme4", participant24$stimulus[i])){
+      participant24$probability[i] <- EndThreeVowel_Ps[4]
+    }
+    if(grepl("EndTwoVowel_rhyme5", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[5]
+    }
+    if(grepl("EndTwoVowel_rhyme6", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[6]
+    }
+    if(grepl("EndTwoVowel_rhyme7", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[7]
+    }
+    if(grepl("EndTwoVowel_rhyme8", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[8]
+    }
+    if(grepl("EndTwoVowel_rhyme9", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[9]
+    }
+    if(grepl("EndTwoVowel_rhyme10", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[10]
+    }
+    if(grepl("EndTwoVowel_rhyme11", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[11]
+    }
+    if(grepl("EndTwoVowel_rhyme12", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[12]
+    }
+    if(grepl("EndTwoVowel_rhyme13", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[13]
+    }
+    if(grepl("EndTwoVowel_rhyme14", participant24$stimulus[i])){
+      participant24$probability[i] <- EndTwoVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_1", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[1]
+    }
+    if(grepl("threeVowelSlantRhyme_2", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[2]
+    }
+    if(grepl("threeVowelSlantRhyme_3", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[3]
+    }
+    if(grepl("threeVowelSlantRhyme_4", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[4]
+    }
+    if(grepl("threeVowelSlantRhyme_5", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[5]
+    }
+    if(grepl("threeVowelSlantRhyme_6", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[6]
+    }
+    if(grepl("threeVowelSlantRhyme_7", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[7]
+    }
+    if(grepl("threeVowelSlantRhyme_8", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[8]
+    }
+    if(grepl("threeVowelSlantRhyme_9", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[9]
+    }
+    if(grepl("threeVowelSlantRhyme_10", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[10]
+    }
+    if(grepl("threeVowelSlantRhyme_11", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[11]
+    }
+    if(grepl("threeVowelSlantRhyme_12", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[12]
+    }
+    if(grepl("threeVowelSlantRhyme_13", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[13]
+    }
+    if(grepl("threeVowelSlantRhyme_14", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[14]
+    }
+    if(grepl("threeVowelSlantRhyme_15", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[15]
+    }
+    if(grepl("threeVowelSlantRhyme_16", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[16]
+    }
+    if(grepl("threeVowelSlantRhyme_17", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[17]
+    }
+    if(grepl("threeVowelSlantRhyme_18", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[18]
+    }
+    if(grepl("threeVowelSlantRhyme_19", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[19]
+    }
+    if(grepl("threeVowelSlantRhyme_20", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[20]
+    }
+    if(grepl("threeVowelSlantRhyme_21", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[21]
+    }
+    if(grepl("threeVowelSlantRhyme_22", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[22]
+    }
+    if(grepl("threeVowelSlantRhyme_23", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[23]
+    }
+    if(grepl("threeVowelSlantRhyme_24", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[24]
+    }
+    if(grepl("threeVowelSlantRhyme_25", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[25]
+    }
+    if(grepl("threeVowelSlantRhyme_26", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[26]
+    }
+    if(grepl("threeVowelSlantRhyme_27", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[27]
+    }
+    if(grepl("threeVowelSlantRhyme_28", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[28]
+    }
+    if(grepl("threeVowelSlantRhyme_29", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[29]
+    }
+    if(grepl("threeVowelSlantRhyme_30", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[30]
+    }
+    if(grepl("threeVowelSlantRhyme_31", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[31]
+    }
+    if(grepl("threeVowelSlantRhyme_32", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[32]
+    }
+    if(grepl("threeVowelSlantRhyme_33", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[33]
+    }
+    if(grepl("threeVowelSlantRhyme_34", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[34]
+    }
+    if(grepl("threeVowelSlantRhyme_35", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[35]
+    }
+    if(grepl("threeVowelSlantRhyme_36", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[36]
+    }
+    if(grepl("threeVowelSlantRhyme_37", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[37]
+    }
+    if(grepl("threeVowelSlantRhyme_38", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[38]
+    }
+    if(grepl("threeVowelSlantRhyme_39", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[39]
+    }
+    if(grepl("threeVowelSlantRhyme_40", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[40]
+    }
+    if(grepl("threeVowelSlantRhyme_41", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[41]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_42", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[42]
+    }
+    if(grepl("threeVowelSlantRhyme_43", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[43]
+    }
+    if(grepl("threeVowelSlantRhyme_44", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[44]
+    }
+    if(grepl("threeVowelSlantRhyme_45", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[45]
+    }
+    if(grepl("threeVowelSlantRhyme_46", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[46]
+    }
+    if(grepl("threeVowelSlantRhyme_47", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[47]
+    }
+    if(grepl("threeVowelSlantRhyme_48", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[48]
+    }
+    if(grepl("threeVowelSlantRhyme_49", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[49]
+    }
+    if(grepl("threeVowelSlantRhyme_50", participant24$stimulus[i])){
+      participant24$probability[i] <- SlantThreeVowel_Ps[50]
+    }
+    if(grepl("onevowel", participant24$stimulus[i])){
+      if(grepl("1", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[1]
+      }
+      if(grepl("2", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[2]
+      }
+      if(grepl("3", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[3]
+      }
+      if(grepl("4", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[4]
+      }
+      if(grepl("5", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[5]
+      }
+      if(grepl("6", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[6]
+      }
+      if(grepl("7", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[7]
+      }
+      if(grepl("8", participant24$stimulus[i])){
+        participant24$probability[i] <- OneVowel_Ps[8]
+      }
+    }
+  }
+}
+
+probabilities <- c(participant1$probability, participant2$probability, participant3$probability,
+                  participant4$probability, participant5$probability, participant6$probability,
+                  participant7$probability, participant8$probability, participant9$probability,
+                  participant10$probability, participant11$probability, participant12$probability,
+                  participant13$probability, participant14$probability, participant15$probability,
+                  participant16$probability, participant17$probability, participant18$probability,
+                  participant19$probability, participant20$probability, participant21$probability,
+                  participant22$probability, participant23$probability, participant24$probability)
+responses <- c(participant1$response, participant2$response, participant3$response,
+               participant4$response, participant5$response, participant6$response,
+               participant7$response, participant8$response, participant9$response,
+               participant10$response, participant11$response, participant12$response,
+               participant13$response, participant14$response, participant15$response,
+               participant16$response, participant17$response, participant18$response,
+               participant19$response, participant20$response, participant21$response,
+               participant22$response, participant23$response, participant24$response)
