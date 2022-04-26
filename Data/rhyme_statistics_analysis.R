@@ -9324,6 +9324,15 @@ probabilities <- probabilities[-indices]
 indices2 <- which(is.na(probabilities))
 responses2 <- responses2[-indices2]
 probabilities2 <- probabilities[-indices2]
+log_probabilities <- log(probabilities2)
+
+for(i in 1:length(probabilities2)){
+  if(log_probabilities[i] == -Inf){
+    log_probabilities[i] <- 0
+  }
+}
+
+model <- glm(responses2~log_probabilities, binomial)
 
 
 responses2 <- as.numeric(responses2)
