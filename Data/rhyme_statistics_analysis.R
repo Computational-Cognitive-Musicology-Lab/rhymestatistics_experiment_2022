@@ -9338,15 +9338,15 @@ responses3 <- responses2[-indices3]
 
 logProbs <- log(probabilities3)
 
-model <- glm(responses3~logProbs, binomial)
+model <- glm(responses3~df$Vowels, binomial)
+
+
 
 sequence <- seq(-20, 0, 0.5)
 
 predicted_values <- predict(model, list(logProbs=sequence), type = "response")
-jpeg(file="allProbs_IV.jpeg")
 plot(logProbs, jitter(responses3))
 lines(sequence, predicted_values, col = "red")
-dev.off()
 
 # indices <- which(probabilities < 0.03)
 # probabilities3 <- probabilities2[which(probabilities2 < 0.03)]
@@ -9537,15 +9537,13 @@ threeVowel_probabilities <- probabilities3[threeVowel_predictor_indices]
 
 logProbs3 <- log(threeVowel_probabilities)
 
-model <- glm(threeVowel_responses~logProbs3, binomial)
+model <- glm(threeVowel_responses~logProbs3 + df$Vowels, binomial)
 
 sequence <- seq(-20,-9,0.5)
 
 predicted_values <- predict(model, list(logProbs3=sequence), type = "response")
-jpeg(file="threeVowel_IV.jpeg")
 plot(logProbs3, jitter(threeVowel_responses))
 lines(sequence, predicted_values, col = "red")
-dev.off()
 
 two_vowel_predictor_indices <- c(which(probabilities3 == EndTwoVowel_Ps[1]),
                                  which(probabilities3 == EndTwoVowel_Ps[2]),
@@ -9574,5 +9572,36 @@ sequence <- seq(-10,-5,0.5)
 predicted_values <- predict(model, list(logProbs4=sequence), type = "response")
 plot(logProbs4, jitter(twoVowel_responses))
 lines(sequence, predicted_values, col = "red")
+df <- cbind(responses3, probabilities3)
+df <- as.data.frame(df)
+oneVowel_predictor_indices_2 <- oneVowel_predictor_indices[!duplicated(oneVowel_predictor_indices)]
+two_vowel_predictor_indices_2 <- two_vowel_predictor_indices[!duplicated(two_vowel_predictor_indices)]
+threeVowel_predictor_indices_2 <- threeVowel_predictor_indices[!duplicated(threeVowel_predictor_indices)]
 
+oneVowel_probabilities_2 <- probabilities3[oneVowel_predictor_indices_2]
+twoVowel_probabilities_2 <- probabilities3[two_vowel_predictor_indices_2]
+threeVowel_probabilities_2 <- probabilities3[threeVowel_predictor_indices_2]
+
+library(lme4)
+vowels <- cbind(oneVowel_probabilities, twoVowel_probabilities, threeVowel_probabilities) 
+df$logProbs <- log(df$probabilities3)
+lmm <- lmer(responses3 ~ logProbs + (1 | Vowels), data = df, REML = FALSE)
+df$Vowels <- 0
+for(i in 1:1586){
+  if(any(oneVowel_predictor_indices_2 == i)){
+    df$Vowels[i] <- 1
+  }
+  else if(any(two_vowel_predictor_indices_2 == i)){
+    df$Vowels[i] <- 2
+  }
+  else if(any(threeVowel_predictor_indices_2 == i)){
+    df$Vowels[i] <- 3
+  }
+  else{
+    df$Vowels[i] <- 0
+  }
+}
+install.packages("lmerTest")
+library(lmerTest)
+lmm <- lmer(responses3 ~ logProbs + (1 | Vowels), data = df, REML = FALSE)
  
