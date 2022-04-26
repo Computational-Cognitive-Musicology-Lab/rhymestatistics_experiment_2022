@@ -9328,12 +9328,16 @@ probabilities2 <- probabilities[-indices2]
 
 responses2 <- as.numeric(responses2)
 probabilities2 <- as.numeric(probabilities2)
-model <- glm(responses2~probabilities2, binomial)
 
-sequence <- seq(min(probabilities2), max(probabilities2), 0.01)
+indices3 <- which(probabilities2==0.00000)
+probabilities3 <- probabilities2[-indices3]
+responses3 <- responses2[-indices3]
+model <- glm(responses3~probabilities3, binomial)
 
-predicted_values <- predict(model, list(probabilities2=sequence), type = "response")
-plot(probabilities2, responses2)
+sequence <- seq(min(probabilities3), max(probabilities3), 0.0001)
+
+predicted_values <- predict(model, list(probabilities3=sequence), type = "response")
+plot(probabilities3, jitter(responses3))
 lines(sequence, predicted_values, col = "red")
 
 # indices <- which(probabilities < 0.03)
