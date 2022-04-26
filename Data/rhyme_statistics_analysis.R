@@ -9343,8 +9343,10 @@ model <- glm(responses3~logProbs, binomial)
 sequence <- seq(-20, 0, 0.5)
 
 predicted_values <- predict(model, list(logProbs=sequence), type = "response")
+jpeg(file="allProbs_IV.jpeg")
 plot(logProbs, jitter(responses3))
 lines(sequence, predicted_values, col = "red")
+dev.off()
 
 # indices <- which(probabilities < 0.03)
 # probabilities3 <- probabilities2[which(probabilities2 < 0.03)]
@@ -9540,8 +9542,10 @@ model <- glm(threeVowel_responses~logProbs3, binomial)
 sequence <- seq(-20,-9,0.5)
 
 predicted_values <- predict(model, list(logProbs3=sequence), type = "response")
+jpeg(file="threeVowel_IV.jpeg")
 plot(logProbs3, jitter(threeVowel_responses))
 lines(sequence, predicted_values, col = "red")
+dev.off()
 
 two_vowel_predictor_indices <- c(which(probabilities3 == EndTwoVowel_Ps[1]),
                                  which(probabilities3 == EndTwoVowel_Ps[2]),
