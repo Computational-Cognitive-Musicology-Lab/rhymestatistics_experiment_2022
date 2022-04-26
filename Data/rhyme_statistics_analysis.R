@@ -9358,5 +9358,217 @@ lines(sequence, predicted_values, col = "red")
 # plot(probabilities3, responses3)
 # lines(sequence, predicted_values, col = "red")
 
+# one vowel predictor
+
+oneVowel_predictor_indices <- c(which(probabilities3 == OneVowel_Ps[3]),
+                        which(probabilities3 == OneVowel_Ps[4]),
+                        which(probabilities3 == OneVowel_Ps[5]),
+                        which(probabilities3 == OneVowel_Ps[6]),
+                        which(probabilities3 == OneVowel_Ps[7]),
+                        which(probabilities3 == OneVowel_Ps[8]))
+oneVowel_responses <- responses3[oneVowel_predictor_indices]
+oneVowel_probabilities <- probabilities3[oneVowel_predictor_indices]
+
+logProbs2 <- log(oneVowel_probabilities)
+
+model <- glm(oneVowel_responses~logProbs2, binomial)
+
+sequence <- seq(-5,-2,0.5)
+
+predicted_values <- predict(model, list(logProbs2=sequence), type = "response")
+plot(logProbs2, jitter(oneVowel_responses))
+lines(sequence, predicted_values, col = "red")
+
+threeVowel_predictor_indices <- c(which(probabilities3 == EndThreeVowel_Ps[1]),
+                                which(probabilities3 == EndThreeVowel_Ps[2]),
+                                which(probabilities3 == EndThreeVowel_Ps[3]),
+                                which(probabilities3 == EndThreeVowel_Ps[4]),
+                                which(probabilities3 == EndThreeVowel_Ps[5]),
+                                which(probabilities3 == EndThreeVowel_Ps[6]),
+                                which(probabilities3 == EndThreeVowel_Ps[7]),
+                                which(probabilities3 == EndThreeVowel_Ps[8]),
+                                which(probabilities3 == EndThreeVowel_Ps[9]),
+                                which(probabilities3 == EndThreeVowel_Ps[10]),
+                                which(probabilities3 == EndThreeVowel_Ps[11]),
+                                which(probabilities3 == EndThreeVowel_Ps[12]),
+                                which(probabilities3 == EndThreeVowel_Ps[13]),
+                                which(probabilities3 == EndThreeVowel_Ps[14]),
+                                which(probabilities3 == EndThreeVowel_Ps[15]),
+                                which(probabilities3 == EndThreeVowel_Ps[16]),
+                                which(probabilities3 == EndThreeVowel_Ps[17]),
+                                which(probabilities3 == EndThreeVowel_Ps[18]),
+                                which(probabilities3 == EndThreeVowel_Ps[19]),
+                                which(probabilities3 == EndThreeVowel_Ps[20]),
+                                which(probabilities3 == EndThreeVowel_Ps[21]),
+                                which(probabilities3 == EndThreeVowel_Ps[22]),
+                                which(probabilities3 == EndThreeVowel_Ps[23]),
+                                which(probabilities3 == EndThreeVowel_Ps[24]),
+                                which(probabilities3 == EndThreeVowel_Ps[25]),
+                                which(probabilities3 == EndThreeVowel_Ps[26]),
+                                which(probabilities3 == EndThreeVowel_Ps[27]),
+                                which(probabilities3 == EndThreeVowel_Ps[28]),
+                                which(probabilities3 == EndThreeVowel_Ps[29]),
+                                which(probabilities3 == EndThreeVowel_Ps[30]),
+                                which(probabilities3 == EndThreeVowel_Ps[31]),
+                                which(probabilities3 == EndThreeVowel_Ps[32]),
+                                which(probabilities3 == EndThreeVowel_Ps[33]),
+                                which(probabilities3 == EndThreeVowel_Ps[34]),
+                                which(probabilities3 == EndThreeVowel_Ps[35]),
+                                which(probabilities3 == EndThreeVowel_Ps[36]),
+                                which(probabilities3 == EndThreeVowel_Ps[37]),
+                                which(probabilities3 == EndThreeVowel_Ps[38]),
+                                which(probabilities3 == EndThreeVowel_Ps[39]),
+                                which(probabilities3 == EndThreeVowel_Ps[40]),
+                                which(probabilities3 == EndThreeVowel_Ps[41]),
+                                which(probabilities3 == EndThreeVowel_Ps[42]),
+                                which(probabilities3 == EndThreeVowel_Ps[43]),
+                                which(probabilities3 == EndThreeVowel_Ps[44]),
+                                which(probabilities3 == EndThreeVowel_Ps[45]),
+                                which(probabilities3 == EndThreeVowel_Ps[46]),
+                                which(probabilities3 == EndThreeVowel_Ps[47]),
+                                which(probabilities3 == EndThreeVowel_Ps[48]),
+                                which(probabilities3 == EndThreeVowel_Ps[49]),
+                                which(probabilities3 == EndThreeVowel_Ps[50]),
+                                which(probabilities3 == SlantThreeVowel_Ps[1]),
+                                which(probabilities3 == SlantThreeVowel_Ps[2]),
+                                which(probabilities3 == SlantThreeVowel_Ps[3]),
+                                which(probabilities3 == SlantThreeVowel_Ps[4]),
+                                which(probabilities3 == SlantThreeVowel_Ps[5]),
+                                which(probabilities3 == SlantThreeVowel_Ps[6]),
+                                which(probabilities3 == SlantThreeVowel_Ps[7]),
+                                which(probabilities3 == SlantThreeVowel_Ps[8]),
+                                which(probabilities3 == SlantThreeVowel_Ps[9]),
+                                which(probabilities3 == SlantThreeVowel_Ps[10]),
+                                which(probabilities3 == SlantThreeVowel_Ps[11]),
+                                which(probabilities3 == SlantThreeVowel_Ps[12]),
+                                which(probabilities3 == SlantThreeVowel_Ps[13]),
+                                which(probabilities3 == SlantThreeVowel_Ps[14]),
+                                which(probabilities3 == SlantThreeVowel_Ps[15]),
+                                which(probabilities3 == SlantThreeVowel_Ps[16]),
+                                which(probabilities3 == SlantThreeVowel_Ps[17]),
+                                which(probabilities3 == SlantThreeVowel_Ps[18]),
+                                which(probabilities3 == SlantThreeVowel_Ps[19]),
+                                which(probabilities3 == SlantThreeVowel_Ps[20]),
+                                which(probabilities3 == SlantThreeVowel_Ps[21]),
+                                which(probabilities3 == SlantThreeVowel_Ps[22]),
+                                which(probabilities3 == SlantThreeVowel_Ps[23]),
+                                which(probabilities3 == SlantThreeVowel_Ps[24]),
+                                which(probabilities3 == SlantThreeVowel_Ps[25]),
+                                which(probabilities3 == SlantThreeVowel_Ps[26]),
+                                which(probabilities3 == SlantThreeVowel_Ps[27]),
+                                which(probabilities3 == SlantThreeVowel_Ps[28]),
+                                which(probabilities3 == SlantThreeVowel_Ps[29]),
+                                which(probabilities3 == SlantThreeVowel_Ps[30]),
+                                which(probabilities3 == SlantThreeVowel_Ps[31]),
+                                which(probabilities3 == SlantThreeVowel_Ps[32]),
+                                which(probabilities3 == SlantThreeVowel_Ps[33]),
+                                which(probabilities3 == SlantThreeVowel_Ps[34]),
+                                which(probabilities3 == SlantThreeVowel_Ps[35]),
+                                which(probabilities3 == SlantThreeVowel_Ps[36]),
+                                which(probabilities3 == SlantThreeVowel_Ps[37]),
+                                which(probabilities3 == SlantThreeVowel_Ps[38]),
+                                which(probabilities3 == SlantThreeVowel_Ps[39]),
+                                which(probabilities3 == SlantThreeVowel_Ps[40]),
+                                which(probabilities3 == SlantThreeVowel_Ps[41]),
+                                which(probabilities3 == SlantThreeVowel_Ps[42]),
+                                which(probabilities3 == SlantThreeVowel_Ps[43]),
+                                which(probabilities3 == SlantThreeVowel_Ps[44]),
+                                which(probabilities3 == SlantThreeVowel_Ps[45]),
+                                which(probabilities3 == SlantThreeVowel_Ps[46]),
+                                which(probabilities3 == SlantThreeVowel_Ps[47]),
+                                which(probabilities3 == SlantThreeVowel_Ps[48]),
+                                which(probabilities3 == SlantThreeVowel_Ps[49]),
+                                which(probabilities3 == SlantThreeVowel_Ps[50]),
+                                which(probabilities3 == InternalThreeVowel_Ps[1]),
+                                which(probabilities3 == InternalThreeVowel_Ps[2]),
+                                which(probabilities3 == InternalThreeVowel_Ps[3]),
+                                which(probabilities3 == InternalThreeVowel_Ps[4]),
+                                which(probabilities3 == InternalThreeVowel_Ps[5]),
+                                which(probabilities3 == InternalThreeVowel_Ps[6]),
+                                which(probabilities3 == InternalThreeVowel_Ps[7]),
+                                which(probabilities3 == InternalThreeVowel_Ps[8]),
+                                which(probabilities3 == InternalThreeVowel_Ps[9]),
+                                which(probabilities3 == InternalThreeVowel_Ps[10]),
+                                which(probabilities3 == InternalThreeVowel_Ps[11]),
+                                which(probabilities3 == InternalThreeVowel_Ps[12]),
+                                which(probabilities3 == InternalThreeVowel_Ps[13]),
+                                which(probabilities3 == InternalThreeVowel_Ps[14]),
+                                which(probabilities3 == InternalThreeVowel_Ps[15]),
+                                which(probabilities3 == InternalThreeVowel_Ps[16]),
+                                which(probabilities3 == InternalThreeVowel_Ps[17]),
+                                which(probabilities3 == InternalThreeVowel_Ps[18]),
+                                which(probabilities3 == InternalThreeVowel_Ps[19]),
+                                which(probabilities3 == InternalThreeVowel_Ps[20]),
+                                which(probabilities3 == InternalThreeVowel_Ps[21]),
+                                which(probabilities3 == InternalThreeVowel_Ps[22]),
+                                which(probabilities3 == InternalThreeVowel_Ps[23]),
+                                which(probabilities3 == InternalThreeVowel_Ps[24]),
+                                which(probabilities3 == InternalThreeVowel_Ps[25]),
+                                which(probabilities3 == InternalThreeVowel_Ps[26]),
+                                which(probabilities3 == InternalThreeVowel_Ps[27]),
+                                which(probabilities3 == InternalThreeVowel_Ps[28]),
+                                which(probabilities3 == InternalThreeVowel_Ps[29]),
+                                which(probabilities3 == InternalThreeVowel_Ps[30]),
+                                which(probabilities3 == InternalThreeVowel_Ps[31]),
+                                which(probabilities3 == InternalThreeVowel_Ps[32]),
+                                which(probabilities3 == InternalThreeVowel_Ps[33]),
+                                which(probabilities3 == InternalThreeVowel_Ps[34]),
+                                which(probabilities3 == InternalThreeVowel_Ps[35]),
+                                which(probabilities3 == InternalThreeVowel_Ps[36]),
+                                which(probabilities3 == InternalThreeVowel_Ps[37]),
+                                which(probabilities3 == InternalThreeVowel_Ps[38]),
+                                which(probabilities3 == InternalThreeVowel_Ps[39]),
+                                which(probabilities3 == InternalThreeVowel_Ps[40]),
+                                which(probabilities3 == InternalThreeVowel_Ps[41]),
+                                which(probabilities3 == InternalThreeVowel_Ps[42]),
+                                which(probabilities3 == InternalThreeVowel_Ps[43]),
+                                which(probabilities3 == InternalThreeVowel_Ps[44]),
+                                which(probabilities3 == InternalThreeVowel_Ps[45]),
+                                which(probabilities3 == InternalThreeVowel_Ps[46]),
+                                which(probabilities3 == InternalThreeVowel_Ps[47]),
+                                which(probabilities3 == InternalThreeVowel_Ps[48]),
+                                which(probabilities3 == InternalThreeVowel_Ps[49]),
+                                which(probabilities3 == InternalThreeVowel_Ps[50]))
+
+threeVowel_responses <- responses3[threeVowel_predictor_indices]
+threeVowel_probabilities <- probabilities3[threeVowel_predictor_indices]
+
+logProbs3 <- log(threeVowel_probabilities)
+
+model <- glm(threeVowel_responses~logProbs3, binomial)
+
+sequence <- seq(-20,-9,0.5)
+
+predicted_values <- predict(model, list(logProbs3=sequence), type = "response")
+plot(logProbs3, jitter(threeVowel_responses))
+lines(sequence, predicted_values, col = "red")
+
+two_vowel_predictor_indices <- c(which(probabilities3 == EndTwoVowel_Ps[1]),
+                                 which(probabilities3 == EndTwoVowel_Ps[2]),
+                                 which(probabilities3 == EndTwoVowel_Ps[3]),
+                                 which(probabilities3 == EndTwoVowel_Ps[4]),
+                                 which(probabilities3 == EndTwoVowel_Ps[5]),
+                                 which(probabilities3 == EndTwoVowel_Ps[6]),
+                                 which(probabilities3 == EndTwoVowel_Ps[7]),
+                                 which(probabilities3 == EndTwoVowel_Ps[8]),
+                                 which(probabilities3 == EndTwoVowel_Ps[9]),
+                                 which(probabilities3 == EndTwoVowel_Ps[10]),
+                                 which(probabilities3 == EndTwoVowel_Ps[11]),
+                                 which(probabilities3 == EndTwoVowel_Ps[12]),
+                                 which(probabilities3 == EndTwoVowel_Ps[13]),
+                                 which(probabilities3 == EndTwoVowel_Ps[14]))
+
+twoVowel_responses <- responses3[two_vowel_predictor_indices]
+twoVowel_probabilities <- probabilities3[two_vowel_predictor_indices]
+
+logProbs4 <- log(twoVowel_probabilities)
+
+model <- glm(twoVowel_responses~logProbs4, binomial)
+
+sequence <- seq(-10,-5,0.5)
+
+predicted_values <- predict(model, list(logProbs4=sequence), type = "response")
+plot(logProbs4, jitter(twoVowel_responses))
+lines(sequence, predicted_values, col = "red")
 
  
