@@ -9324,20 +9324,32 @@ responses <- c(participant1$response[5:104], participant2$response[5:104], parti
 indices2 <- which(is.na(probabilities))
 responses2 <- responses[-indices2]
 probabilities2 <- probabilities[-indices2]
-log_probabilities <- log(probabilities2)
-log_probs <- log_probabilities[-which(log_probabilities == -Inf)]
-mean(log_probs)
+probabilities3 <- probabilities2*probabilities2
+nonrhyme_probs <- probabilities2*(1-probabilities2)
+log_nonrhyme_probs <- log(nonrhyme_probs)
+log_nonrhyme_probs <- log_nonrhyme_probs[-which(log_nonrhyme_probs == -Inf)]
+log_probs <- log(probabilities3)
+log_probabilities <- log_probs[-which(log_probs == -Inf)]
 
 for(i in 1:length(probabilities2)){
-  if(is.na(log_probabilities[i])){
-    log_probabilities[i] <- -3.389
+  if(is.na(log_nonrhyme_probs[i])){
+    log_nonrhyme_probs[i] <- 0
   }
-  if(log_probabilities[i] == -Inf){
-    log_probabilities[i] <- -3.389
+  if(log_nonrhyme_probs[i] == -Inf){
+    log_nonrhyme_probs[i] <- 0
   }
 }
 
-df <- cbind(responses2, log_probabilities)
+for(i in 1:length(probabilities2)){
+  if(is.na(log_probs[i])){
+    log_probs[i] <- 0
+  }
+  if(log_probs[i] == -Inf){
+    log_probs[i] <- -12.2
+  }
+}
+
+df <- cbind(responses2, log_probs)
 df <- as.data.frame(df)
 
 
@@ -9534,9 +9546,40 @@ for(i in 1:nrow(df)){
 }
 
 responses2 <- as.numeric(responses2)
-model <- glmer(responses2~log_probabilities + (1 | df$Vowels), family = binomial)
+model <- glmer(responses2~log_probs + (1|Vowels), data = df, family = binomial)
+
+sequence <- seq(-20, 0, 0.2)
+
+predicted_values <- predict(model, list(log_probabilities=sequence), type = "response")
+jpeg("logProbsResponses.jpeg")
+plot(log_probabilities, jitter(responses2))
+lines(sequence, predicted_values, col = "red")
+dev.off()
+
+model <- glmer(responses2~log_probabilities + (1|Vowels), data = df, family = binomial)
+
+sequence <- seq(-20, 0, 0.2)
+
+predicted_values <- predict(model, list(log_probabilities=sequence), type = "response")
+
 
 model <- glm(df$responses2~df$Vowels, binomial)
+
+indices_ <- c(which(df$Vowels == 1), which(df$Vowels == 2), which(df$Vowels == 3))
+
+model <- glm(df$responses2[-indices_]~df$Vowels[-indices_], binomial)
+
+save <- df$responses2[-indices_]
+
+save2 <- df$Vowels[-indices_]
+
+indx <- which(save == 0)
+
+indx2 <- which(save2 == 1)
+
+
+
+which(df$responses2[-indices_] == 1)
 
 lmm <- lmer(responses2 ~ df$log_probabilities + (1 | df$Vowels), data = df, REML = FALSE)
 
