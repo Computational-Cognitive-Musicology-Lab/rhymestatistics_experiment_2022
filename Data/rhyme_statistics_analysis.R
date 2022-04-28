@@ -9330,10 +9330,10 @@ mean(log_probs)
 
 for(i in 1:length(probabilities2)){
   if(is.na(log_probabilities[i])){
-    log_probabilities[i] <- -12.19
+    log_probabilities[i] <- -3.389
   }
   if(log_probabilities[i] == -Inf){
-    log_probabilities[i] <- -12.19
+    log_probabilities[i] <- -3.389
   }
 }
 
@@ -9536,7 +9536,7 @@ for(i in 1:nrow(df)){
 responses2 <- as.numeric(responses2)
 model <- glmer(responses2~log_probabilities + (1 | df$Vowels), family = binomial)
 
-model <- glm(responses2~df$log_probabilities, binomial)
+model <- glm(df$responses2~df$Vowels, binomial)
 
 lmm <- lmer(responses2 ~ df$log_probabilities + (1 | df$Vowels), data = df, REML = FALSE)
 
