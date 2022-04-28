@@ -9345,7 +9345,7 @@ for(i in 1:length(probabilities2)){
     log_probs[i] <- 0
   }
   if(log_probs[i] == -Inf){
-    log_probs[i] <- -12.2
+    log_probs[i] <- -0.062
   }
 }
 
